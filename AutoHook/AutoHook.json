@@ -3,7 +3,7 @@
   "Name": "Auto Hook (Elixsis)",
   "Punchline": "Makes fishing less (or more) boring",
   "Description": "It hooks the fish for you, can you believe it?",
-  "InternalName": "AutoHook",
+  "InternalName": "AutoHookFork",
   "RepoUrl": "https://github.com/ChrisHampu/AutoHook",
   "ApplicableVersion": "any",
   "Tags": ["Gathering","Fishing"],
