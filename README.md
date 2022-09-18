@@ -3,7 +3,7 @@ AutoHook is a FFXIV plugin that assists you while fishing
 
 ## Installation
 ```
-https://raw.githubusercontent.com/InitialDet/MyDalamudPlugins/main/pluginmaster.json
+https://raw.githubusercontent.com/ChrisHampu/DalamudPlugins/main/pluginmaster.json
 ```
 * Copy the link above
 * Open your Plugin Installer Window and click Settings
@@ -41,7 +41,7 @@ In this tab, you can customize which hook to use based on your current bait or f
 ![image](https://user-images.githubusercontent.com/13919114/176053822-336b1ee9-3549-4ee8-95e2-85baf49d9509.png)
 
 ## Looking for more plugins?
-https://github.com/InitialDet/MyDalamudPlugins
+https://github.com/ChrisHampu/DalamudPlugins
 
 
 
