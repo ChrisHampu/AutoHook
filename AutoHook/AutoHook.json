@@ -1,13 +1,13 @@
 {
-  "Author": "Det",
-  "Name": "Auto Hook",
+  "Author": "Elixsis",
+  "Name": "Auto Hook (Elixsis)",
   "Punchline": "Makes fishing less (or more) boring",
   "Description": "It hooks the fish for you, can you believe it?",
   "InternalName": "AutoHook",
-  "RepoUrl": "https://github.com/InitialDet/AutoHook",
+  "RepoUrl": "https://github.com/ChrisHampu/AutoHook",
   "ApplicableVersion": "any",
   "Tags": ["Gathering","Fishing"],
   "DalamudApiLevel": 7,
-  "IconUrl": "https://raw.githubusercontent.com/InitialDet/AutoHook/main/AutoHook/images/icon.png",
+  "IconUrl": "https://raw.githubusercontent.com/ChrisHampu/AutoHook/main/AutoHook/images/icon.png",
   "Changelog": "Patch 6.2 Update"
 }

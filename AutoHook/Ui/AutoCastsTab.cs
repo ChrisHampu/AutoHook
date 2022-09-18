@@ -169,6 +169,19 @@ internal class AutoCastsTab : TabConfig
     {
         if (DrawUtil.Checkbox("Use Prize Catch", ref cfg.EnablePrizeCatch, "Cancels Current Mooch. Patience and Makeshift Bait will not be used when Prize Catch active"))
         { }
+
+        if (cfg.EnablePrizeCatch)
+        {
+            ImGui.Indent();
+            DrawExtraOptionsPrizeCatch();
+            ImGui.Unindent();
+        }
+    }
+
+    private void DrawExtraOptionsPrizeCatch()
+    {
+        if (DrawUtil.Checkbox("Use when Identical Catch is active", ref cfg.EnableIdenticalPrizeCatch))
+        { }
     }
 
     private void DrawChum()

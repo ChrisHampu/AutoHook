@@ -9,7 +9,7 @@ on:
     branches: [main]
 
 env:
-  PLUGIN_REPO: InitialDet/MyDalamudPlugins
+  PLUGIN_REPO: ChrisHampu/DalamudPlugins
   PROJECT_NAME: AutoHook
 
 jobs:
@@ -46,7 +46,7 @@ jobs:
   release:
     needs: build
     runs-on: windows-latest
-    if: "contains(toJSON(github.event.commits.*.message), '[PUSH]') && github.event_name == 'push'"
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2.2.0

@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<Authors>Det</Authors>
+		<Authors>Elixsis</Authors>
 		<Version>2.2.3.2</Version>
 		<Description>Auto hooks for you</Description>
-		<PackageProjectUrl>https://github.com/InitialDet/AutoHook</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/ChrisHampu/AutoHook</PackageProjectUrl>
 		<Configurations>Release;Debug</Configurations>
 		<TargetFramework>net6.0-windows</TargetFramework>
 		<Platforms>x64</Platforms>

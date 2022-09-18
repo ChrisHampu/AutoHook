@@ -17,6 +17,7 @@ public class AutoCastsConfig
 
     public bool EnablePatience = false;
     public bool EnableMakeshiftPatience = false;
+
     public uint SelectedPatienceID = IDs.Actions.Patience2; // Default to Patience2
 
     public bool EnableThaliaksFavor = false;
@@ -26,6 +27,7 @@ public class AutoCastsConfig
     public int MakeshiftBaitStacks = 5;
 
     public bool EnablePrizeCatch = false;
+    public bool EnableIdenticalPrizeCatch = false;
 
     public bool EnableChum = false;
     public bool EnableFishEyes = false;
@@ -191,6 +193,10 @@ public class AutoCastsConfig
 
     private bool UsePrizeCatch()
     {
+        // If configured, skip Prize Catch if Identical Cast is inactive
+        if (EnableIdenticalPrizeCatch && !PlayerResources.HasStatus(IDs.Status.IdenticalCast))
+            return false;
+        
         if (!EnablePrizeCatch)
             return false;
 
